@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <header>
+        <div class="container-fluid  new bg-primary">
+          <div class="row">
+            <div class="col">
+              <a href="#">Discount and offer Zone</a>
+            </div>
+            <div class="col">
+              
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </div>
+            <div class="col">
+              
+            <!-- catagories choose -->
+            <div class="col">
+              
+              <button class="btn bg-dark" ><a href="#">Wishlist</a></button> 
+              
+              <!-- <button class="btn bg-dark" ><a href="#">Sign up</a></button>
+             <button class="btn bg-dark cart"><a href="#">Cart</a></button> -->
+              <button class="btn bg-dark"><a href="#">Login</a></button>
+            </div>
+            
+  
+           </div>
+          </div>
+        </div>
+      </header> 
+      
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand icart" href="Ecom.html">iCART</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Ecom.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+             <!-- For Dropdown Section -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#electronics1">Electronics</a></li>
+                  <li><a class="dropdown-item" href="#fashion1">Fashion</a></li>
+                  <li><a class="dropdown-item" href="#groceries1">Groceries</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                 </ul>
+              </li> 
+         <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> --> 
+           </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+      
+
+<div class="outer">
+    <div class="wrapper">
+        <div class="content-fluid">
+            <div class="row">
+                <div class="col">
+                    <img id="featured" src="Head1.jpeg">
+
+
+                    <img class="thumbnail active" src="Head1.jpeg" alt="Headphone" onclick="imageSlider('Head1.jpeg')">
+                    <img class="thumbnail" src="Head2.jpeg" alt="Headphone" onclick="imageSlider('Head2.jpeg')">
+                    <img class="thumbnail" src="Head3.jpg" alt="Headphone" onclick="imageSlider('Head3.jpg')">
+
+                    </div>
+                
+                <div class="col solid">
+                    
+                    <h3 class="Awesome">Awesome Headphone</h3>
+                    <hr>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    
+                    <a href="#"><button class="btn btn-warning ba">ADD TO CART</button></a>
+                    <a href="#"><button class="btn btn-danger ba">BUY NOW</button></a>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <br>
+                    <span>Review :</span> <button class="btn btn-success"><span class="badge badge-success">4.1☆</span></button>
+                     <span>199 Ratings & 49 Reviews</span>
+                     <br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <h6>Special price:</h6>
+                     <h2>₹699</h2>
+                     <br>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     <div class="box">
+                     <h2>Specifications</h2>
+                     <hr>
+                     <h5>Details:</h5><br>
+                     <p><span class="light">Model Name</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Viper Work N Play with Mic and Volume Control</p>
+                     <p><span class="light">Color</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Black, Red</p>
+                     <p><span class="light">Headphone Type</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On the Ear</p>
+                     <p><span class="light">Sales Package</span>&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 Headphone,1 User Manual</p>
+                     <p><span class="light">Connectivity</span>&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Wired</p>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script>
+  function imageSlider(links){
+    document.getElementById('featured').src= links;
+  }
+
+</script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
